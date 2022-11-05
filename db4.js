@@ -1,4 +1,4 @@
-[
+const data = [
     {
       "id": 1,
       "name": "Leanne Graham",
@@ -230,3 +230,212 @@
       }
     }
   ]
+
+
+// suma de dos numeros-----------------------------------------------------------------------------------------------------
+
+// const sum = () => {
+//     const num1 = prompt('Digit number 1:')
+//     const num2 = prompt('Digit number 2:')
+
+//     console.log(parseInt(num1) + parseInt(num2))
+// }
+
+// sum()
+// sum()
+// sum()
+
+
+
+// resta de dos numeros-----------------------------------------------------------------------------------------------------
+
+// const substrac = () => {
+//     const num1 = prompt('Digit number 1:')
+//     const num2 = prompt('Digit number 2:')
+
+//     console.log(parseInt(num1) - parseInt(num2))
+// }
+
+// substrac()
+// substrac()
+// substrac()
+
+
+
+// resta de dos numeros-----------------------------------------------------------------------------------------------------
+
+// const product = () => {
+//     const num1 = prompt('Digit number 1:')
+//     const num2 = prompt('Digit number 2:')
+
+//     console.log(parseInt(num1) * parseInt(num2))
+// }
+
+// product()
+// product()
+// product()
+
+
+
+// resta de dos numeros ------------------------------------------------------------------------------------------------
+
+// const divide = () => {
+//     const num1 = prompt('Digit number 1:')
+//     const num2 = prompt('Digit number 2:')
+
+//     console.log(parseInt(num1) / parseInt(num2))
+// }
+
+// divide()
+// divide()
+// divide()
+
+
+
+// array de frutas----------------------------------------------------------------------------------------------------------------
+
+// const fruts = () => {
+//     const frutsArray = []
+//     const max = Math.random() * 5 + 5
+
+//     for (let i = 0; i < max; i++) {
+//         frutsArray.push(prompt('type frut:'))
+//     }
+
+//     for (let i = 0; i < frutsArray.length; i++) {
+//         console.log(frutsArray[i])
+//     }
+// }
+
+// fruts()
+
+
+
+//array animals --------------------------------------------------------------------------------------------------------------------
+
+// const animals = ['dog', 'cat', 'bird', 'elephant', 'rhino', 'horse', 'cow', 'lion', 'whale', 'cocodrile']
+
+// const showAnimals = (animals) => {
+//     for (let i = 0; i < animals.length; i++) {
+//         console.log(animals[i])
+//     }
+// }
+
+// showAnimals(animals)
+
+
+
+// arithmetic operations --------------------------------------------------------------------------------------------------
+
+// const arith = () => {
+//     const num1 = prompt('Number 1:')
+//     const operation = prompt('Operation:')
+//     const num2 = prompt('Number 2:')
+
+//     switch (operation) {
+//         case '+': console.log(parseInt(num1) + parseInt(num2)); break;
+//         case '-': console.log(parseInt(num1) - parseInt(num2)); break;
+//         case '*': console.log(parseInt(num1) * parseInt(num2)); break;
+//         case '/': console.log(parseInt(num1) / parseInt(num2)); break;
+//         default: console.log('Invalid Operation')
+//     }
+// }
+
+// arith()
+
+
+
+// First element of array -------------------------------------------------------------------------------------------------------------------
+
+// const firstElement = (data) => {
+//     const element = data[0];
+
+//     console.log(element.name)
+//     console.log(element.email)
+// }
+
+// firstElement(data)
+
+
+
+// Sort 5 elements by max to min and min to max ------------------------------------------------------------------------------------------------
+
+// var numbers = []
+
+// for (let i = 0; i < 5; i++) {
+//     numbers.push(prompt('Digit number:'))
+// }
+
+// const sortMinMax = (numbers) => {
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         for (let j = i + 1; j < numbers.length; j++) {
+//             if (numbers[i] > numbers[j]) {
+//                 let aux = numbers[i]
+//                 numbers[i] = numbers[j]
+//                 numbers[j] = aux
+//             }
+//         }
+//     }
+
+//     console.log(numbers)
+// }
+
+// sortMinMax(numbers)
+
+// const numbers2 = []
+
+// for (let i = 0; i < 5; i++) {
+//     numbers2.push(prompt('Digit number:'))
+// }
+
+// const sortMaxMin = (numbers) => {
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         for (let j = i + 1; j < numbers.length; j++) {
+//             if (numbers[i] < numbers[j]) {
+//                 let aux = numbers[i]
+//                 numbers[i] = numbers[j]
+//                 numbers[j] = aux
+//             }
+//         }
+//     }
+
+//     console.log(numbers)
+// }
+
+// sortMaxMin(numbers2)
+
+
+
+// Cambiar a minuscula ------------------------------------------------------------------------------------------------------------------------
+
+// const sentence = prompt('Enter a sentence:')
+
+// const toLowerCase = (sentence) => {
+//     console.log(sentence.toLowerCase())
+// }
+
+// toLowerCase(sentence)
+
+
+
+// Order from A to Z and Z to A --------------------------------------------------------------------------------------------------------------------------------
+
+// const wordsArray = []
+
+// for (let i = 0; i < 5; i++) {
+//     wordsArray.push(prompt('Enter a word'))
+// }
+
+// const fromAtoZ = (words) => {
+//     console.log(words.sort())
+// }
+
+// const fromZtoA = (words) => {
+//     console.log(words.sort().reverse())
+// }
+
+// fromAtoZ(wordsArray)
+// fromZtoA(wordsArray)
+
